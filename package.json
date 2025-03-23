@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "This is a demo project for CICD workshop",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "// Here will be the test command"
+    "test": "// Here will be the test command",
+    "start": "node src/index.js"
   },
   "author": "Chen asulin",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.0",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.2.0",
+    "moch": "^0.0.1"
   }
 }
