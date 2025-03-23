@@ -1,0 +1,14 @@
+{
+  "name": "cicd_2025",
+  "version": "1.0.0",
+  "description": "This is a demo project for CICD workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "// Here will be the test command"
+  },
+  "author": "Chen asulin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
